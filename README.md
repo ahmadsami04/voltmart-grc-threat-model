@@ -1,20 +1,20 @@
-VoltMart Electronics: GRC Threat Model Project
+## VoltMart Electronics: GRC Threat Model Project
 
-Project Overview
+## Project Overview
 
 VoltMart Electronics is a fictional mid-sized electronics retailer operating an online storefront, retail point-of-sale (POS) terminals, inventory management systems, and supporting IT infrastructure.
 
 This project develops a simulated Governance, Risk, and Compliance (GRC) assessment to support ISO/IEC 27001:2022 audit preparation.
 
-Project: Ezitech Cybersecurity Internship
-Environment: Fictional educational simulation
-Current Phase: Task 1, System Inventory and Data-Flow Diagram
+**Project:** Ezitech Cybersecurity Internship
+**Environment:** Fictional educational simulation
+**Current Phase:** Task 1, System Inventory and Data-Flow Diagram
 
-Task 1: System Inventory and Data-Flow Diagram
+## Task 1: System Inventory and Data-Flow Diagram
 
 The objective of Task 1 is to identify the organization's IT assets, document system ownership and network locations, and create a data-flow diagram showing the main information exchanges and logical trust boundaries.
 
-System Inventory
+**System Inventory**
 
 The inventory documents 15 fictional IT assets, identified as VM-01 through VM-15.
 
@@ -22,7 +22,7 @@ Each asset includes its name, type, business function, network location, owner, 
 
 "View System Inventory" (VoltMart_System_Inventory.xlsx)
 
-Data-Flow Diagram
+**Data-Flow Diagram**
 
 The Level 1 data-flow diagram illustrates VoltMart's principal systems, network zones, trust boundaries, and selected directional data flows.
 
@@ -36,14 +36,14 @@ Diagram files:
 
 To edit the diagram, open the ".drawio" file using "diagrams.net" (https://app.diagrams.net/).
 
-Supporting Documentation
+**Supporting Documentation**
 
 - "Project Scope" (PROJECT_SCOPE.md)
 - "Data-Flow Notes" (DATA_FLOW_NOTES.md)
 
 The data-flow notes explain the main information exchanges, logical network zones, security considerations, and limitations of the simplified diagram.
 
-Scope and Assumptions
+## Scope and Assumptions
 
 All assets, network zones, and business scenarios are fictional.
 
@@ -53,7 +53,7 @@ The data-flow diagram represents selected logical exchanges rather than a comple
 
 This project is an educational GRC exercise and does not constitute an actual ISO 27001 certification audit.
 
-Planned Project Phases
+## Planned Project Phases
 
 - Task 1: System Inventory and Data-Flow Diagram
 - Task 2: STRIDE Threat Modelling and Risk Ranking
@@ -61,13 +61,13 @@ Planned Project Phases
 - Task 4: Evidence Collection Pack and Automation Scripts
 - Task 5: GRC Documentation Website and Final Handover
 
-Tools Used
+## Tools Used
 
 - LibreOffice Calc
 - diagrams.net
 - Visual Studio Code
 - Git and GitHub
 
-Project Status
+## Project Status
 
 Task 1 deliverables have been prepared locally. Final repository validation and submission are pending.
