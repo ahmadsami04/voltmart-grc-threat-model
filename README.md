@@ -14,32 +14,24 @@ This project develops a simulated Governance, Risk, and Compliance (GRC) assessm
 
 The objective of Task 1 is to identify the organization's IT assets, document system ownership and network locations, and create a data-flow diagram showing the main information exchanges and logical trust boundaries.
 
-**System Inventory**
+### System Inventory
 
-The inventory documents 15 fictional IT assets, identified as VM-01 through VM-15.
+[View System Inventory](VoltMart_System_Inventory.xlsx)
 
-Each asset includes its name, type, business function, network location, owner, data classification, criticality, connected systems, and security notes.
+### Data-Flow Diagram
 
-"View System Inventory" (VoltMart_System_Inventory.xlsx)
+**Diagram files:**
 
-**Data-Flow Diagram**
+- [View Diagram (PNG)](VoltMart_Data_Flow_Diagram.drawio.png)
+- [View Diagram (PDF)](VoltMart_Data_Flow_Diagram.pdf)
+- [Download Editable Diagram](VoltMart_Data_Flow_Diagram.drawio)
 
-The Level 1 data-flow diagram illustrates VoltMart's principal systems, network zones, trust boundaries, and selected directional data flows.
+To edit the diagram, open the `.drawio` file using [diagrams.net](https://app.diagrams.net/).
 
-The diagram uses simple rectangular shapes and is intended to support later STRIDE threat modelling.
+### Supporting Documentation
 
-Diagram files:
-
-- "View Diagram (PNG)" (VoltMart_Data_Flow_Diagram.drawio.png)
-- "View Diagram (PDF)" (VoltMart_Data_Flow_Diagram.pdf)
-- "Download Editable Diagram" (VoltMart_Data_Flow_Diagram.drawio)
-
-To edit the diagram, open the ".drawio" file using "diagrams.net" (https://app.diagrams.net/).
-
-**Supporting Documentation**
-
-- "Project Scope" (PROJECT_SCOPE.md)
-- "Data-Flow Notes" (DATA_FLOW_NOTES.md)
+- [Project Scope](PROJECT_SCOPE.md)
+- [Data-Flow Notes](DATA_FLOW_NOTES.md)
 
 The data-flow notes explain the main information exchanges, logical network zones, security considerations, and limitations of the simplified diagram.
 
