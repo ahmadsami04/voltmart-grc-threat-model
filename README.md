@@ -62,4 +62,73 @@ This project is an educational GRC exercise and does not constitute an actual IS
 
 ## Project Status
 
-Task 1 deliverables have been prepared locally. Final repository validation and submission are pending.
+Task 1 has been submitted through the Ezitech portal. Task 2 STRIDE threat modelling and risk assessment deliverables have been prepared and are undergoing final repository verification before submission.
+
+## Task 2: STRIDE Threat Modelling and Risk Ranking
+
+### Overview
+
+This task identifies potential cybersecurity threats affecting VoltMart Electronics, a fictional retail organization. The assessment builds on the 15-asset inventory and Level 1 data-flow diagram completed in Task 1.
+
+The threat scenarios are hypothetical and are not evidence of confirmed vulnerabilities or security incidents.
+
+### STRIDE Threat Matrix
+
+The threat matrix contains 18 scenarios, with three examples for each of the six STRIDE categories:
+
+- Spoofing
+- Tampering
+- Repudiation
+- Information Disclosure
+- Denial of Service
+- Elevation of Privilege
+
+Each entry identifies an asset, threat description, potential impact, proposed security considerations, and recommended mitigation.
+
+[Download STRIDE Threat Matrix and Methodology (Excel)](VoltMart_STRIDE_Threat_Matrix.xlsx)
+
+### Risk Assessment Methodology
+
+The assessment uses a qualitative 5 × 5 scoring model.
+
+- Likelihood: 1 (Rare) to 5 (Almost Certain)
+- Impact: 1 (Insignificant) to 5 (Severe)
+- Risk Score = Likelihood × Impact
+- Low: 1–4
+- Medium: 5–9
+- High: 10–16
+- Critical: 17–25
+
+Threats are ranked by descending risk score. Ties are resolved using the original threat order.
+
+These scores represent preliminary inherent-risk estimates for a fictional environment. They do not reflect verified control effectiveness, and the thresholds are specific to this educational project rather than prescribed by ISO/IEC 27001.
+
+The Excel workbook includes separate STRIDE Matrix, Risk Register, and Risk Methodology worksheets.
+
+### Risk Assessment Results
+
+The 18 assessed threats produced the following preliminary distribution:
+
+- Critical: 2
+- High: 14
+- Medium: 2
+- Low: 0
+
+The two highest-priority threats are:
+
+1. TH-10: Customer database information disclosure (score 20).
+2. TH-17: Web application privilege escalation (score 20).
+
+The risk rankings indicate which hypothetical scenarios would warrant earlier investigation and mitigation planning.
+
+### Risk Register
+
+The CSV contains 18 threat entries with asset identifiers, STRIDE categories, likelihood and impact ratings, calculated risk scores, risk levels, priority rankings, and scoring rationales.
+
+[Download Risk Register (CSV)](VoltMart_Risk_Register.csv)
+
+### Scope and Limitations
+
+This assessment uses fictional systems and assumed threat scenarios. No penetration testing, production-system assessment, or real customer-data analysis was performed.
+
+Proposed security safeguards in the matrix should not be interpreted as verified implemented controls. Risk treatment decisions and detailed ISO/IEC 27001 control mapping are outside the scope of this Task 2 assessment.
