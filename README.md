@@ -62,7 +62,7 @@ This project is an educational GRC exercise and does not constitute an actual IS
 
 ## Project Status
 
-Task 1 has been submitted through the Ezitech portal. Task 2 STRIDE threat modelling and risk assessment deliverables have been prepared and are undergoing final repository verification before submission.
+Task 1 (System Inventory and Data-Flow Diagram) and Task 2 (STRIDE Threat Modelling and Risk Ranking) have been accepted by the Ezitech mentor. Task 3 (ISO 27001 Annex A Control Mapping and Mitigation Strategy) is in progress. The control mapping, implementation assessment, decision log, and mitigation strategy have been prepared for final verification before submission.
 
 ## Task 2: STRIDE Threat Modelling and Risk Ranking
 
@@ -132,3 +132,27 @@ The CSV contains 18 threat entries with asset identifiers, STRIDE categories, li
 This assessment uses fictional systems and assumed threat scenarios. No penetration testing, production-system assessment, or real customer-data analysis was performed.
 
 Proposed security safeguards in the matrix should not be interpreted as verified implemented controls. Risk treatment decisions and detailed ISO/IEC 27001 control mapping are outside the scope of this Task 2 assessment.
+
+## Task 3: ISO 27001 Annex A Control Mapping and Mitigation Strategy
+
+### Overview
+
+This task maps the 18 identified STRIDE threats to relevant ISO/IEC 27001:2022 Annex A security controls and evaluates proposed mitigation strategies.
+
+### Deliverables
+
+- [ISO 27001 Control Mapping and Decision Log (Excel)](VoltMart_ISO27001_Control_Mapping.xlsx)
+- [Risk Mitigation Strategy (Markdown)](MITIGATION_STRATEGY.md)
+
+### Key Results
+
+- 18 risks mapped to proposed Annex A controls.
+- 22 selected Annex A controls documented in the reference sheet.
+- 18 implementation assessments covering cost, effort, benefit, and priority.
+- 18 control decisions with justifications, trade-offs, and alternatives.
+- 15 proposed Phase 1 decisions and 3 proposed Phase 2 decisions.
+- Two Critical risks, TH-10 and TH-17, prioritized for immediate attention.
+
+### Scope and Limitations
+
+All assessments are based on a fictional retail environment. Control implementations, management approvals, and operating effectiveness have not been verified. The proposed mappings do not establish ISO 27001 certification or compliance.
