@@ -1,0 +1,4 @@
+﻿2026-11-13T09:00:00Z INFO VoltMart web application started
+2026-11-13T09:05:12Z INFO Customer login successful user=demo_customer
+2026-11-13T09:08:44Z WARNING Repeated failed login attempts user=demo_admin
+2026-11-13T09:12:20Z INFO Inventory API request completed status=200

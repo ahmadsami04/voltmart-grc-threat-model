@@ -1,0 +1,5 @@
+﻿username,role,account_status,environment
+demo_admin,Administrator,Active,Demo
+demo_cashier,Cashier,Active,Demo
+demo_inventory,InventoryManager,Active,Demo
+demo_former_user,Employee,Disabled,Demo

@@ -1,0 +1,4 @@
+﻿2026-11-13T09:02:00Z INFO POS terminal POS-DEMO-01 online
+2026-11-13T09:07:22Z INFO Test transaction completed transaction=DEMO-1001
+2026-11-13T09:11:10Z WARNING POS device authentication retry device=POS-DEMO-02
+2026-11-13T09:15:00Z INFO POS terminal health check successful

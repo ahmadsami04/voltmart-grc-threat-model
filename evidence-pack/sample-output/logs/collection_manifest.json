@@ -1,0 +1,26 @@
+{
+  "project": "VoltMart Electronics",
+  "evidence_type": "Synthetic security logs",
+  "collected_at_utc": "2026-11-16T15:43:14.978241+00:00",
+  "files": [
+    {
+      "name": "application.log",
+      "size_bytes": 279,
+      "sha256": "68ceb852588f61c460dfc10c07398cc003fbb4e5ec3fd124266489fd153fc34d",
+      "status": "verified"
+    },
+    {
+      "name": "pos.log",
+      "size_bytes": 280,
+      "sha256": "091a76d8a623aee2d15932775737110cf6178c6ee8ff0a4dbbc5459b0929798d",
+      "status": "verified"
+    },
+    {
+      "name": "security.log",
+      "size_bytes": 293,
+      "sha256": "abcfa0f7089e91cadfd2313887389dff14a501c4c0f85d63a3064052e6764911",
+      "status": "verified"
+    }
+  ],
+  "errors": []
+}

@@ -1,0 +1,4 @@
+﻿2026-11-13T09:01:00Z INFO Security monitoring initialized
+2026-11-13T09:06:31Z WARNING Failed authentication user=demo_admin source=TEST-NET
+2026-11-13T09:09:15Z ALERT Multiple failed authentication attempts detected
+2026-11-13T09:14:00Z INFO Access review completed environment=fictional

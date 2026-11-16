@@ -1,0 +1,7 @@
+Project: VoltMart Electronics
+Environment: Fictional local test environment
+System ID: VOLTMART-DEMO-01
+System Type: Retail application demonstration
+Operating System: Simulated Linux environment
+Evidence Classification: Synthetic sample only
+Production Evidence: No
