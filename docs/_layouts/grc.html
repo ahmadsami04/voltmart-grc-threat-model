@@ -35,16 +35,28 @@ layout: default
 
 .main-content table {
   display: block;
-  width: max-content;
+  width: 100%;
   max-width: 100%;
   overflow-x: auto;
   white-space: normal;
   font-size: 0.85rem;
+  -webkit-overflow-scrolling: touch;
 }
 
 .main-content table th,
 .main-content table td {
-  min-width: 110px;
+  min-width: 130px;
+  max-width: 350px;
+  padding: 12px;
   vertical-align: top;
+  overflow-wrap: break-word;
+}
+
+.main-content table th:nth-child(5),
+.main-content table td:nth-child(5),
+.main-content table th:last-child,
+.main-content table td:last-child {
+  min-width: 250px;
 }
 </style>
+
