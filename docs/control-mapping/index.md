@@ -1,0 +1,36 @@
+﻿---
+layout: grc
+title: ISO 27001 Control Mapping
+---
+
+# VoltMart Electronics: ISO 27001 Annex A Control Mapping
+
+This table presents 18 proposed risk-to-control mappings from Task 3.
+All mappings describe a fictional environment and do not establish implemented controls.
+
+| Threat ID | Asset ID | Asset Name | STRIDE Category | Risk Score | Risk Level | Annex A Control ID | Annex A Control Name | Control Purpose | Proposed Mitigation | Implementation Status | Mapping Rationale | Mapping Check | Coverage Count |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| TH-01 | VM-10 | Identity and Access Management | Spoofing | 16 | High | 8.5 | Secure authentication | Strengthen identity verification during login | Require multifactor authentication and secure login protections | Proposed / Not Verified | Stronger authentication reduces the chance of unauthorized access using stolen credentials | PASS | 18 |
+| TH-02 | VM-05 | POS Terminals | Spoofing | 12 | High | 8.20 | Networks security | Prevent rogue devices from impersonating trusted POS terminals | Use device authentication, network admission controls and dedicated POS network segments | Proposed / Not Verified | Network admission and device verification help prevent unauthorized terminals from joining trusted POS communications | PASS |  |
+| TH-03 | VM-02 | Web Application Server | Spoofing | 15 | High | 8.5 | Secure authentication | Prevent forged service identities from accessing APIs | Require strong service authentication, validated tokens and protected service credentials | Proposed / Not Verified | Service authentication reduces unauthorized API access through forged service identities | PASS |  |
+| TH-04 | VM-08 | Inventory Database | Tampering | 16 | High | 8.3 | Information access restriction | Prevent unauthorized inventory record changes | Restrict inventory write permissions to approved roles and enforce server-side authorization | Proposed / Not Verified | Limiting modification rights helps prevent unauthorized stock and supplier record changes | PASS |  |
+| TH-05 | VM-06 | POS Management Server | Tampering | 15 | High | 8.7 | Protection against malware | Prevent malicious software from changing sales transactions | Deploy endpoint protection and application allowlisting on POS devices | Proposed / Not Verified | Malware prevention reduces the likelihood of transaction manipulation by malicious software | PASS |  |
+| TH-06 | VM-01 | Web Storefront | Tampering | 12 | High | 8.3 | Information access restriction | Limit unauthorized changes to sensitive data | Apply least-privilege permissions and restrict write access to authorized roles | Proposed / Not Verified | Restricting write permissions reduces opportunities for unauthorized data modification | PASS |  |
+| TH-07 | VM-06 | POS Management Server | Repudiation | 9 | Medium | 8.15 | Logging | Create records of security-relevant user actions | Enable centralized, timestamped and tamper-protected audit logs | Proposed / Not Verified | Reliable audit trails help attribute actions and investigate disputed activity | PASS |  |
+| TH-08 | VM-15 | Administrator Workstation | Repudiation | 12 | High | 8.15 | Logging | Preserve evidence of administrator configuration changes | Record administrator identity, configuration changes and timestamps in protected audit logs | Proposed / Not Verified | Reliable configuration audit logs help attribute changes and resolve disputed administrator actions | PASS |  |
+| TH-09 | VM-07 | Inventory Management System | Repudiation | 9 | Medium | 8.15 | Logging | Preserve evidence of important transactions and changes | Record administrative and transaction events with user identity and timestamps | Proposed / Not Verified | Detailed records make it harder to deny actions without supporting evidence | PASS |  |
+| TH-10 | VM-03 | Customer Database | Information Disclosure | 20 | Critical | 8.3 | Information access restriction | Prevent exposure of customer records through incorrect permissions | Enforce least-privilege access and review customer database permissions | Proposed / Not Verified | Access restrictions directly address excessive permissions that expose customer information | PASS |  |
+| TH-11 | VM-04 | Payment Gateway Integration | Information Disclosure | 15 | High | 8.15 | Logging | Prevent sensitive payment information from leaking through logs | Mask or exclude payment tokens and sensitive metadata from application logs | Proposed / Not Verified | Secure logging practices reduce sensitive information exposure through log records | PASS |  |
+| TH-12 | VM-13 | Backup Storage | Information Disclosure | 15 | High | 8.24 | Use of cryptography | Protect backup contents from unauthorized disclosure | Encrypt backup copies and protect encryption keys separately | Proposed / Not Verified | Encryption reduces information exposure if an unauthorized party obtains backup copies | PASS |  |
+| TH-13 | VM-01 | Web Storefront | Denial of Service | 16 | High | 8.20 | Networks security | Protect network availability against malicious traffic | Apply network filtering, traffic monitoring and appropriate denial-of-service protections | Proposed / Not Verified | Network protections can reduce disruption from hostile or excessive traffic | PASS |  |
+| TH-14 | VM-11 | Network Firewall | Denial of Service | 12 | High | 8.20 | Networks security | Reduce firewall resource exhaustion and network outages | Apply traffic filtering, connection limits, capacity monitoring and resilient network design | Proposed / Not Verified | Network protection and capacity controls help reduce firewall exhaustion and connectivity loss | PASS |  |
+| TH-15 | VM-07 | Inventory Management System | Denial of Service | 12 | High | 8.22 | Segregation of networks | Limit disruption across different network environments | Separate POS, administration and public-facing network segments | Proposed / Not Verified | Segmentation can contain disruption and limit movement between network zones | PASS |  |
+| TH-16 | VM-09 | Employee Workstations | Elevation of Privilege | 16 | High | 8.2 | Privileged access rights | Restrict misuse of elevated permissions | Limit privileged accounts, require approvals and review administrator access | Proposed / Not Verified | Controlling elevated permissions reduces opportunities for unauthorized privileged actions | PASS |  |
+| TH-17 | VM-02 | Web Application Server | Elevation of Privilege | 20 | Critical | 8.25 | Secure development life cycle | Reduce application privilege escalation weaknesses | Use secure design reviews, authorization testing and security checks before deployment | Proposed / Not Verified | Security-focused development helps prevent flaws that permit privilege escalation | PASS |  |
+| TH-18 | VM-12 | Core Network Switch | Elevation of Privilege | 12 | High | 5.18 | Access rights | Prevent excessive or outdated user permissions | Review role permissions regularly and promptly revoke unnecessary access | Proposed / Not Verified | Permission reviews reduce opportunities to gain or retain unauthorized elevated access | PASS |  |
+
+## Scope and Limitations
+
+These mappings are proposed security recommendations, not evidence of deployed safeguards.
+The original Excel workbook remains the authoritative assessment record.
+

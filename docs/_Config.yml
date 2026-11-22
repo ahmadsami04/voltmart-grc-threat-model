@@ -1,0 +1,11 @@
+title: VoltMart Electronics GRC Documentation
+description: Fictional cybersecurity governance, risk, and compliance assessment
+theme: jekyll-theme-cayman
+
+url: "https://ahmadsami04.github.io"
+baseurl: "/voltmart-grc-threat-model"
+
+markdown: kramdown
+
+exclude:
+  - SITE_PLAN.md

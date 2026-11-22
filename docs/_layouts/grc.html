@@ -1,0 +1,50 @@
+﻿---
+layout: default
+---
+
+<nav class="grc-navigation" aria-label="Documentation navigation">
+  <a href="{{ '/' | relative_url }}">Home</a>
+  <a href="{{ '/executive-summary.html' | relative_url }}">Executive Summary</a>
+  <a href="{{ '/policies/' | relative_url }}">Policies</a>
+  <a href="{{ '/risk-register/' | relative_url }}">Risk Register</a>
+  <a href="{{ '/control-mapping/' | relative_url }}">Control Mapping</a>
+  <a href="{{ '/evidence/' | relative_url }}">Evidence Pack</a>
+  <a href="{{ '/handover/' | relative_url }}">Hand-over</a>
+</nav>
+
+{{ content }}
+
+<style>
+.grc-navigation {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin: 0 0 24px;
+  padding: 12px 0;
+  border-bottom: 1px solid #ddd;
+}
+
+.grc-navigation a {
+  font-size: 0.9rem;
+  font-weight: 600;
+}
+
+.main-content {
+  overflow-wrap: anywhere;
+}
+
+.main-content table {
+  display: block;
+  width: max-content;
+  max-width: 100%;
+  overflow-x: auto;
+  white-space: normal;
+  font-size: 0.85rem;
+}
+
+.main-content table th,
+.main-content table td {
+  min-width: 110px;
+  vertical-align: top;
+}
+</style>
