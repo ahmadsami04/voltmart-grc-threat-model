@@ -8,7 +8,7 @@ This project develops a simulated Governance, Risk, and Compliance (GRC) assessm
 
 **Project:** Ezitech Cybersecurity Internship
 **Environment:** Fictional educational simulation
-**Current Phase:** Task 1, System Inventory and Data-Flow Diagram
+**Current Phase:** Task 5 - Final submission review.
 
 ## Task 1: System Inventory and Data-Flow Diagram
 
@@ -62,7 +62,7 @@ This project is an educational GRC exercise and does not constitute an actual IS
 
 ## Project Status
 
-Task 1 (System Inventory and Data-Flow Diagram) and Task 2 (STRIDE Threat Modelling and Risk Ranking) have been accepted by the Ezitech mentor. Task 3 (ISO 27001 Annex A Control Mapping and Mitigation Strategy) is in progress. The control mapping, implementation assessment, decision log, and mitigation strategy have been prepared for final verification before submission.
+The VoltMart GRC project deliverables have been prepared and committed to GitHub. The Task 5 documentation website and hand-over guide have been published. Final Ezitech mentor review and acceptance are pending.
 
 ## Task 2: STRIDE Threat Modelling and Risk Ranking
 
