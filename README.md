@@ -62,7 +62,7 @@ This project is an educational GRC exercise and does not constitute an actual IS
 
 ## Project Status
 
-The VoltMart Electronics GRC Threat Model project has been completed, and the documentation website is live on GitHub Pages. All five project tasks have been implemented, including the system inventory, STRIDE threat modelling, ISO 27001 control mapping, evidence collection pack, and final documentation website with handover guide. All project deliverables are maintained in GitHub. Final Ezitech supervisor acceptance is pending.
+The VoltMart Electronics GRC Threat Model project has been completed, and the documentation website is live on GitHub Pages. All five project tasks have been implemented, including the system inventory, STRIDE threat modelling, ISO 27001 control mapping, evidence collection pack, and final documentation website with handover guide. All project deliverables are maintained in GitHub.
 
 ## Task 2: STRIDE Threat Modelling and Risk Ranking
 

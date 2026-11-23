@@ -50,7 +50,7 @@ Days 1–4 completed. The evidence collection pack contains three synthetic log 
 
 The Python and Bash collectors have been tested successfully, including SHA-256 integrity checks and missing-input error handling. The combined PowerShell runner has also been tested and produces seven evidence files plus one JSON manifest.
 
-Day 5 focuses on final verification, reproducibility testing, and GitHub delivery. Day 6 will cover final review and Ezitech submission.
+The evidence collection pack and related documentation have been completed and committed to GitHub. The final Task 5 documentation website has been submitted to Ezitech for review.
 
 ## How to Run the Evidence Collectors
 
